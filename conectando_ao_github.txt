@@ -1,0 +1,4 @@
+git remote add origin link-do-repositorio: linka o repositório do Github ao seu
+projeto
+git push origin master/nome-branch: sobe o codigo para o Github na branch escolhida
+git pull origin master/nome-da-branch: puxa as atualizações do projeto no Github
