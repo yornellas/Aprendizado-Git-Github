@@ -1,0 +1,7 @@
+O Git tem 2 tipos de arquivos: o monitorado e o não monitorado.
+
+Os arquivos não monitorados são arquivos novos, que não estavam no último commit
+e que não estão na área de seleção - staging dir.
+
+Os arquivos monitorados são os que já foram add e podem ser inalterados, modificados 
+ou selecionados (no staged).
