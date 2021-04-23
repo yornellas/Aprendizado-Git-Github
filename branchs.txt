@@ -1,0 +1,6 @@
+Branches são "braços" do projeto. Servem para várias versões de um mesmo projeto
+serem trabalhadas simultaneamente por várias pessoas.
+
+Master: branch principal
+
+As outras branches podem ser fundidas à master
