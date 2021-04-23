@@ -1,0 +1,1 @@
+Repositório criado para exercícios de Git e Github
