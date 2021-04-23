@@ -1,0 +1,28 @@
+Principais comandos:
+
+touch: cria um arquivo vazio
+git status: mostra o status do git (se tem arquivos a serem comitados ou add)
+git commit -m: commita o arquivo (deve se colocar uma mensagem especificando 
+o que foi feito/modificado)
+git log: mostra o historico do git (status dos commits, etc)
+git diff: mostra as diferenças entre as versões dos arquivos
+git add nome-do-arquivo: coloca o arquivo no staged
+git add .: coloca todos os arquivos disponíveis no staged
+git commit --ament "repara" o último commit
+git reset HEAD: tira o arquivo especificado do estado staged
+git checkout -- nome-do-arquivo: modifica o arquivo especificado para a última versão comitada
+
+git branch: mostra s branches
+git branch nome-da-nova-branch: cria uma nova branch
+git checkout nome-da-branch: navega para essa branch
+git branch -d nome-da-branch: deleta essa branch
+git checkout -b nome-da-nova-branch: cria uma nova branch e navega para ela
+git merge nome-da-branch: funde essa branch com a master
+
+git clone url-do-repositorio-a-ser-clonado: clona o repositório do Github, 
+por exemplo para a maquina
+
+git remote add origin link-do-repositorio: linka o repositório do Github ao seu
+projeto
+git push origin master/nome-branch: sobe o codigo para o Github na branch escolhida
+git pull origin master/nome-da-branch: puxa as atualizações do projeto no Github
